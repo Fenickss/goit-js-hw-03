@@ -18,7 +18,7 @@ const user = {
 ``` */
 
 /* ================================================================================================================================= */
-/*
+
 const user = {
   name: 'Mango',
   age: 20,
@@ -36,4 +36,4 @@ let keys = Object.keys(user);
 for (const key of keys) {
   console.log(key)
 }
-console.log(user); */
+console.log(user); 
