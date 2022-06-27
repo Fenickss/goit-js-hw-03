@@ -18,3 +18,27 @@ console.log(countProps({ name: 'Mango', age: 2 })); // 2
 console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 })); // 3
 ```
  */
+
+const countProps = function (obj) {
+
+  const objProperties = Object.values(obj);
+  
+  for (const objPropertie of objProperties) {
+    const numberProperties = objProperties.length;
+    
+     return numberProperties;
+  }
+
+};
+console.log(countProps({})); // 0
+
+console.log(countProps({ name: 'Mango', age: 2 })); // 2
+
+console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 })); // 3
+
+
+ 
+
+  
+
+  
